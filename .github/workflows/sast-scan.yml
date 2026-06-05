@@ -33,7 +33,7 @@ jobs:
             --nvdApiKey ${{ secrets.WORKSHOP6_NVD_API_KEY }} \
             --out . \
             --scan . \
-            --disableOssIndex\
+            --disableOssIndex \
 		--disableCentral
 
       - name: Archive SAST report
